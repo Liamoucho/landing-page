@@ -1,0 +1,161 @@
+body
+{
+background-image: url("https://wallpaperscraft.com/image/yeezy_adidas_yeezy_boost_350_sneakers_107414_3000x2000.jpg");
+border-radius: 20px;
+}
+
+#titre {
+  font-size:50px;
+  font-family: Arial;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  border-radius: 150px;
+}
+
+#Login:hover {
+  background-color:	#1E90FF;
+  border-color: 	#1E90FF;
+}
+
+.texte {
+color: white;
+}
+
+#parent {
+display: flex;
+justify-content: space-around;
+}
+
+#rgdr {
+  color: white
+  font-size 20px;
+}
+
+#brch {
+font-size: 20px;
+color:white ;
+text-decoration:underline;
+}
+
+.maj {
+  color: #	##white;
+}
+
+.catalogue:hover {
+  border-radius: 11px;
+  border-color: black;
+  transform: scale(1.2);
+}
+
+#ctlg {
+display: flex;
+justify-content: center;
+}
+
+
+.txt_frft {
+  color: white;
+  font-size: 18px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  margin: 10px;
+  transition: 1.5s;
+  width: 650px;
+  height:550px;
+  border-radius: 20px;
+
+}
+
+#logo:hover{
+  transform: rotate(0.5turn);
+}
+
+
+
+.formulaire {
+  background-color: grey;
+}
+
+
+
+
+transition: 5.5s;
+}
+.bas:hover{
+  background-color: #	#1E90FF;
+  color: white;
+}
+
+@media screen and (max-width: 750px)
+{
+  .explication{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{border: none;
+border-bottom: 1px solid #f#1E90FF
+outline: none;
+height:40px;
+background-color:#C0C0C0 ;
+background-position: center;
+position: relative;
+font-size: 18px;
+border-radius:20px;
+}
+
+.loginbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107
+  color: #C0C0C0;
+}
+
+.loginbox a{
+  text-decoration: none;
+  front-size: 12px;
+  line-height: 20px;
+color: #C0C0C0;
+}
+
+.loginbox a:hover{
+  color: red;
+}
+
+p {
+  color: black
+}
